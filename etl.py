@@ -82,8 +82,6 @@ def calculate_index_date(events, mortality, deliverables_path):
 def filter_events(events, indx_date, deliverables_path):
     
     '''
-    
-    Suggested steps:
     1. Join indx_date with events on patient_id
     2. Filter events occuring in the observation window(IndexDate-2000 to IndexDate)
     
